@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-head
+{
+    width: 100%;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+}
+.items
+{
+    background-color: cornsilk;
+    margin-top: 200px;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#item
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.items h1
+{
+    margin-top: 20px;
+}
+.alert-empty
+{
+    background-color: rosybrown;
+    color: red;
+    padding: 3px 2px;
+}
+.alert-full
+{
+    background-color: darkseagreen;
+    color: blue;
+}
+#btn
+{
+   margin-top: 20px;
+    padding: 5px 20px;
+}
+.glory-items
+{
+    
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 20px;
+    visibility: hidden;
+}
+.show-glory-items
+{
+    visibility: visible;
+}
+.edit-btn
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.del-btn
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.clear
+{
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    color: red;
+    visibility: hidden;
+}
+.show-clear
+{
+    visibility: visible;
+}
